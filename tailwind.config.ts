@@ -16,9 +16,9 @@ const config: Config = {
         warn: "#B3541E",
       },
       fontFamily: {
-        display: ["var(--font-display)", "serif"],
-        body: ["var(--font-body)", "sans-serif"],
-        mono: ["var(--font-mono)", "monospace"],
+        display: ["Georgia", "Cambria", "serif"],
+        body: ["-apple-system", "Segoe UI", "Roboto", "sans-serif"],
+        mono: ["Consolas", "Menlo", "monospace"],
       },
       borderRadius: {
         card: "10px",
